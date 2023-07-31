@@ -16,3 +16,10 @@ function displayHighScores() {
     }
 }
 
+function clearHighScores() {
+    localStorage.removeItem("highScores");
+    highscoresE1.innerHTML = "";
+}
+
+displayHighScores();
+clearBtnE1.addEventListener("click", clearHighScores);
