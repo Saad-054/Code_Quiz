@@ -51,6 +51,69 @@ document.addEventListener("DOMcontentLoaded", function() {
             choicesE1.appendChild(choiceBtn);
         }
     }
+
+    function checkAnswer(event) {
+        var selectedChoice = event.target.textContent
+        var currentQuestion = questions[currentQuestionsIndex];
+
+        if (selectedChoice === currentQuestion.answer {
+            feedbackE1.textContent = "Correct!";
+            score += 10;
+        } else {
+            feedbackE1.textContent = "Wrong!";
+            timeLeft -= 10;
+        }
+
+        currentQuestionIndex++;
+        displayQuestion();
+    }
+
+    function endQuiz() {
+        clearInterval(timer);
+        if (questionsE1) {
+            questionsE1.style.display = "none";
+        }
+        if (endScreenE1) {
+            endScreenE1.style.display = "block";
+        }
+        finalScoreE1.textContent = score;
+    }
+
+    function saveHighScore() {
+        var initials = initialsInputE1.value.trim();
+
+        if (initials !== "") {
+            var highSscores = JSON.parse(localStorage.getItem("highScores")) || [];
+            var mewScore = {
+                initials: initials,
+                score: score
+            };
+
+            highSscores.push(newScore);
+            localStorage.setItem("highScores", JSON.stringify(highSscores));
+
+            window.location.href = "highscores.html";
+        }
+    }
+
+    var startBtn = document.getElementById("start");
+    if (startBtn) {
+        startBtn.addEventListener("click", startQuiz);
+    }
+
+    if (submitBTnE1) {
+        submitBTnE1.addEventListener("click, saveHighScore");
+    }
+
+    if
+
+
+
+
+
+
+
+
         
     }
 
