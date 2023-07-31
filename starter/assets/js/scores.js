@@ -1,5 +1,5 @@
-var highscoresE1 = document.getElementById("highscores");
-var clearBtnE1 - document.getElementById("clear");
+var highscoresEl = document.getElementById("highscores");
+var clearBtnEl = document.getElementById("clear");
 
 function displayHighScores() {
     var highScores = JSON.parse(localStorage.getItem("highScores")) || [];
@@ -10,16 +10,16 @@ function displayHighScores() {
 
     for (var i = 0; i < highScores.length; i++) {
         var scoreData = highScores[i];
-        var liE1 = document.createElement("li");
-        liE1.textContent = scoreData.iniitals + " - " + scoreData.score;
-        highscoresE1.appendChild(liE1);
+        var liEl = document.createElement("li");
+        liEl.textContent = scoreData.initials + " - " + scoreData.score;
+        highscoresEl.appendChild(liEl);
     }
 }
 
 function clearHighScores() {
     localStorage.removeItem("highScores");
-    highscoresE1.innerHTML = "";
+    highscoresEl.innerHTML = "";
 }
 
 displayHighScores();
-clearBtnE1.addEventListener("click", clearHighScores);
+clearBtnEl.addEventListener("click", clearHighScores);
