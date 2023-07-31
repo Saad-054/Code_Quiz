@@ -105,28 +105,11 @@ document.addEventListener("DOMcontentLoaded", function() {
         submitBTnE1.addEventListener("click, saveHighScore");
     }
 
-    if
-
-
-
-
-
-
-
-
-        
+    if (highscoresLinkE1) {
+        highscoresLinkE1.addEventListener("click", function(event) {
+            event.preventDefault();
+            window.location.href = "highscores.html";
+        });
     }
-
-}   
-
-
-
-
-
-
-
-
-
-
-
-)
+});
+in
