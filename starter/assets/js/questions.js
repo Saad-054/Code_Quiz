@@ -1,7 +1,12 @@
+// questions variable has an array assigned to it in square brackets
 var questions = [
+    // contents of array in elipsis
     {
+        // question for the quiz
         question: "Arrays in JavaScript can be used to store _____",
+        // options provided whihc user must select one
         choices: ["1. numbers and strings", "2. other arrays", "3. booleans", "4. all of the above"],
+        // correct answer of the options provided
         answer: "4. all of the above"
     },
     {
