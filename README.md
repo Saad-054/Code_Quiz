@@ -18,7 +18,9 @@ As a junior web developer, building this Code Quiz was a valuable learning exper
 - cloned the repository on my Desktop using the SSH Key
 - Customised the content of the website by adding JavaScript
 ## Usage
-![website_image](./websiteimage.JPG)
+![website_image](./starter/assets/images/First%20Page.JPG)
+![website_image](./starter/assets/images/Question.JPG)
+![website_image](./starter/assets/images/Highscores.JPG)
 
 ## Credits
 There were no collaborators for this project.
