@@ -1,10 +1,10 @@
 # Personal-Portfolio
 ## Description
-The Password Generator App was created to address the need for strong and unique passwords in today's digital world. As a web developer, I aimed to build a practical application that demonstrates my skills in JavaScript, HTML, and CSS while providing users with a convenient and secure tool for generating strong passwords. Many people struggle to create strong passwords, and the app was designed to offer a user-friendly and reliable solution to this common problem.
+This repository houses a captivating and interactive Code Quiz web application, designed for users to test their coding knowledge. The quiz presents users with a series of multiple-choice questions and starts a timer upon clicking the "Start" button. As users answer each question, they are immediately presented with another question. However, incorrect answers lead to time deductions, adding an element of urgency and challenge to the quiz. The game concludes either when the timer reaches zero or when all questions have been answered.
 
-The task involved developing a password generator app that runs in the browser and dynamically updates HTML and CSS elements based on user inputs. Users could specify the desired password length within a valid range of 8 to 128 characters and choose from various character types, including lowercase letters, uppercase letters, numeric digits, and special characters. To ensure security, the app enforced the selection of at least one character type and incorporated special characters in the generated passwords. 
+To develop this application, three JavaScript files played essential roles. The index.html file provided the basic structure of the quiz, defining question elements, buttons, and score displays. The style.css file added visually appealing and user-friendly styling, ensuring a delightful user experience. The real magic, however, was embedded within the logic.js file. This JavaScript code orchestrated the entire quiz, handling the logic behind the timer, question display, answer validation, scoring, and the end-game event.
 
-Building the Password Generator App was a challenging yet rewarding project that strengthened my technical skills in web development. It highlighted the importance of creating practical tools that positively impact users' digital security. The experience not only enhanced my debugging and troubleshooting skills but also reinforced the significance of building user-focused applications that follow industry standards. Overall, the app serves as a testament to my ability to create functional, secure, and responsive applications that meet user needs.
+As a junior web developer, building this Code Quiz was a valuable learning experience. I sharpened my JavaScript skills and gained insights into DOM manipulation, event handling, and data management. The application introduced me to handling dynamic data using arrays and objects, as well as using local storage to save user data. This project strengthened my grasp of core JavaScript concepts and equipped me with problem-solving skills applicable to future web development endeavors. As I continue my journey, the lessons learned from this quiz application will undoubtedly prove valuable in creating more engaging and interactive web experiences for users.
 
 - [Installation](#installation)
 - [Usage](#usage)
@@ -24,7 +24,7 @@ Building the Password Generator App was a challenging yet rewarding project that
 There were no collaborators for this project.
 
 ## Link
-https://saad-054.github.io/Password-Generator/
+https://saad-054.github.io/Code_Quiz/
 
 ## License
 MIT License
